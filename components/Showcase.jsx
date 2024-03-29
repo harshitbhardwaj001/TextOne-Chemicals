@@ -4,8 +4,8 @@ const Showcase = () => {
   return (
     <div className="flex flex-col gap-10 absolute top-[300%] justify-center w-full items-center">
       <h1 className="[font-family:'Barlow-Bold',Helvetica] font-bold text-[#2F70B0] text-[45px] text-left tracking-[0] leading-[normal] w-[70vw]">
-        A showcase of various fabrics treated with TextOne Industries' organic
-        textile chemicals
+        A showcase of various fabrics treated with TextOne Industries&apos;
+        organic textile chemicals
       </h1>
       <div className="grid grid-cols-3 gap-[5rem]">
         <div className="flex flex-col gap-8 border-[#dddddd] border-[2px] rounded-lg pb-[1.5rem]">
