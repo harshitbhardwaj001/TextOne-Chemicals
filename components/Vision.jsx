@@ -11,9 +11,9 @@ const Vision = () => {
           <h1 className="[font-family:'Barlow-Bold',Helvetica] font-semibold text-[#2F70B0] text-[50px] text-left tracking-[0] leading-[normal]">
             VISION
           </h1>
-          <p className="[font-family:'Barlow-Bold',Helvetica] font-light text-[#575757] text-[15px] text-left tracking-[0] leading-[normal] w-[400px] mt-[1.2rem]">
+          <p className="[font-family:'Barlow-Bold',Helvetica] font-light text-[#575757] text-[17px] text-left tracking-[0] leading-[normal] w-[400px] mt-[1.2rem]">
             We envision a future where textiles are not just about function, but
-            also about artistry and expression. We aspire to be the world's
+            also about artistry and expression. We aspire to be the world&apos;s
             leading provider of innovative and sustainable textile chemicals,
             empowering our customers to create fabrics that are not only
             beautiful and functional, but also environmentally responsible. We
@@ -26,15 +26,12 @@ const Vision = () => {
           <h1 className="[font-family:'Barlow-Bold',Helvetica] font-semibold text-[#2F70B0] text-[50px] text-left tracking-[0] leading-[normal]">
             MISSION
           </h1>
-          <p className="[font-family:'Barlow-Bold',Helvetica] font-light text-[#575757] text-[15px] text-left tracking-[0] leading-[normal] w-[400px] mt-[1.2rem]">
-            We envision a future where textiles are not just about function, but
-            also about artistry and expression. We aspire to be the world's
-            leading provider of innovative and sustainable textile chemicals,
-            empowering our customers to create fabrics that are not only
-            beautiful and functional, but also environmentally responsible. We
-            believe that the textile industry has the potential to be a force
-            for good in the world, and we are committed to playing our part in
-            making that vision a reality.
+          <p className="[font-family:'Barlow-Bold',Helvetica] font-light text-[#575757] text-[17px] text-left tracking-[0] leading-[normal] w-[400px] mt-[1.2rem]">
+            To empower the textile industry with innovative, sustainable, and
+            high-performance chemical solutions that elevate the quality,
+            aesthetics, and environmental impact of textiles. We strive to be a
+            trusted partner, collaborating with our customers to redefine the
+            very fabric of fashion and contribute to a more sustainable future.
           </p>
         </div>
       </div>
