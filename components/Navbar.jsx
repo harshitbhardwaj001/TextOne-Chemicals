@@ -1,22 +1,28 @@
+"use client";
+
+import Hamburger from "hamburger-react";
 import React from "react";
 
 const Navbar = () => {
   return (
     <div
       id="MenuBarRoot"
-      className="flex justify-between items-center w-[60%] mx-auto"
+      className="flex justify-between items-center w-[60%] mx-auto xs:max-md:w-[100vw] xs:max-md:px-[1.2rem] absolute top-12 z-10"
     >
       <div
         id="Logo"
-        className="bg-white shadow-lg rounded-br-3xl rounded-bl-3xl flex justify-center items-start w-1/5 h-16 pt-2"
+        className="bg-white shadow-lg rounded-br-3xl rounded-bl-3xl flex justify-center items-start w-1/5 h-16 pt-2 xs:max-md:w-[25vw] xs:max-md:h-[3.5rem]"
       >
         <img
           src="https://file.rendit.io/n/vmtPznwaFOixQ5PjiNL7.png"
           alt="TextOne Logo"
-          className="h-12"
+          className="h-12 xs:max-md:w-[22vw] xs:max-md:h-auto"
         />
       </div>
-      <div className="flex justify-center gap-[4rem] items-center w-3/5 mt-4 font-barlow">
+      <div className="md:hidden">
+        <Hamburger size={20} color="white" />
+      </div>
+      <div className="flex justify-center gap-[4rem] items-center w-3/5 mt-4 font-barlow xs:max-md:hidden">
         <a href="/">
           <span className="relative text-sm font-bold text-white cursor-pointer">
             HOME
