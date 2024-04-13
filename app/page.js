@@ -13,9 +13,7 @@ export default function Home() {
       <Consult />
       <ProductCard />
       <ChooseUs />
-      {/* <div className="absolute top-[450%]">
-        <Footer />
-      </div> */}
+      <Footer />
     </>
   );
 }
