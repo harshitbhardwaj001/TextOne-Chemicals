@@ -18,10 +18,10 @@ const Navbar = () => {
           className="h-12 xs:max-md:w-[22vw] xs:max-md:h-auto"
         />
       </div>
-      <div className="md:hidden">
+      <div className="md:hidden mt-[0.6rem]">
         <MobileNav />
       </div>
-      <div className="flex justify-center gap-[4rem] items-center w-3/5 mt-4 font-barlow xs:max-md:hidden">
+      <div className="flex justify-center gap-[4rem] items-center w-3/5 mt-4  font-barlow xs:max-md:hidden">
         <a href="/">
           <span className="relative text-sm font-bold text-white cursor-pointer">
             HOME
