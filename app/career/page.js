@@ -8,9 +8,7 @@ const page = () => {
     <>
       <CareerHero />
       <CareerForm />
-      <div className="absolute top-[220%]">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 };
