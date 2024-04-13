@@ -7,17 +7,13 @@ import React from "react";
 
 const about = () => {
   return (
-    <>
+    <div>
       <AboutHero />
       <Vision />
       <Values />
-      <div className="absolute top-[330%]">
-        <ChooseUs />
-      </div>
-      <div className="absolute top-[420%]">
-        <Footer />
-      </div>
-    </>
+      <ChooseUs />
+      <Footer />
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 "use client";
-
-import Hamburger from "hamburger-react";
 import React from "react";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
@@ -20,7 +19,7 @@ const Navbar = () => {
         />
       </div>
       <div className="md:hidden">
-        <Hamburger size={20} color="white" />
+        <MobileNav />
       </div>
       <div className="flex justify-center gap-[4rem] items-center w-3/5 mt-4 font-barlow xs:max-md:hidden">
         <a href="/">
