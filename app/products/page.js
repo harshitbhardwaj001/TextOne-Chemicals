@@ -10,9 +10,7 @@ const page = () => {
       <ProductHero />
       <ProductCategory />
       <Showcase />
-      <div className="absolute top-[460%]">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 };
