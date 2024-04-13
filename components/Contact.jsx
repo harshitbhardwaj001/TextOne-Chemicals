@@ -4,7 +4,7 @@ import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -105,4 +105,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
