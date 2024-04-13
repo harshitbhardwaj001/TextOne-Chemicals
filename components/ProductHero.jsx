@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductHero = () => {
   return (
-    <div className="w-full h-[100vh] bg-[url(/products.png)] bg-cover bg-[50%_50%]">
+    <div className="w-full h-[100vh] bg-[url(/Products.png)] bg-cover bg-[50%_50%]">
       <div className="w-[58vw] xs:max-md:w-[80vw] h-[654px] xs:max-md:h-[100vh] flex flex-col gap-[2rem] items-start xs:max-md:items-center md:gap-[2rem] justify-center mx-auto pt-[5rem]">
         <p className="[font-family:'Barlow-Bold',Helvetica] font-bold text-white text-[50px] text-left xs:max-md:text-center tracking-[0] leading-[normal] xs:max-md:static xs:max-md:w-[100%] xs:max-md:text-[40px]">
           Products
